@@ -34,14 +34,19 @@ blogspot.l.googleusercontent.com. 300 IN A	142.250.114.132
 
 ### MX Record
 Specifies mail servers responsible for accepting email on behalf of the domain. The LOWER the number, the HIGHER the priority. 
+
 LOWER == HIGHER
+
 [Cloudflare Learning Article - What is a DNS MX record?](https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/)
+
 [MX Toolbox Online Tool - View a domain's MX records in priority order](https://mxtoolbox.com/)
 
 ### TXT Record
 Record used for various purposes, including email security information like SPF (lists authorized servers that can send email from that domain), DKIM (specifically the public key for digitally signed emails), and DMARC (how to handle SPF and DKIM policy failures) that help prevent email spoofing and domain verification.
+
 [Cloudflare Learning Article -  DNS TXT records](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/)
 
 ### NS Record:
 Stands for Name Server, it redirects the DNS resolution to another DNS server, to delegate DNS resolution authority to another authoritative DNS server.
+
 [Cloudflare Learning Article - DNS NS record](https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/)
